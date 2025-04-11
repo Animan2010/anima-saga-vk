@@ -147,14 +147,14 @@
                     bridge.game.on('visibility_state_changed', state => sendMessageToUnity('OnVisibilityStateChanged', state))
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/55b4be68c8840447ada589709f10a4c0.loader.js'
+                    unityLoader.src = 'Build/ea40b5d5ea75dd4a77813f12a165739e.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/e8d4af34af3f8feaec4b27f9dce0a212.data.unityweb',
-                                frameworkUrl: 'Build/9bdc2aa6a0bdfc6d6f3edf55f1c75289.framework.js.unityweb',
-                                codeUrl: 'Build/de37ca0619279225935f98a2ab4f7377.wasm.unityweb',
+                                dataUrl: 'Build/27a2e02a5d7647a2857c488c03c8c09d.data.unityweb',
+                                frameworkUrl: 'Build/ebec4d614e844da66550a0a585668f6e.framework.js.unityweb',
+                                codeUrl: 'Build/9271f66086b24b24cc924aed218e621e.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'AnimaGames',
                                 productName: 'Anima Saga - Clicker RPG',
