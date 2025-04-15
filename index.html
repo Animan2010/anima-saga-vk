@@ -47,6 +47,19 @@
                 background: #9747FF;
             }
         </style>
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+         
+            ym(99754951, "init", {
+                 clickmap:true,
+                 trackLinks:true,
+                 accurateTrackBounce:true
+            });
+         </script>
     </head>
     <body>
         <canvas id="canvas" class="fullscreen"></canvas>
@@ -147,14 +160,14 @@
                     bridge.game.on('visibility_state_changed', state => sendMessageToUnity('OnVisibilityStateChanged', state))
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/8f3a8715a71aeb976a665650d0fc63c3.loader.js'
+                    unityLoader.src = 'Build/a2b53ff13ba7457b66530209ac430e36.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/de5bf1edef1c17da0f4d2f348a06bcb4.data.unityweb',
-                                frameworkUrl: 'Build/ebec4d614e844da66550a0a585668f6e.framework.js.unityweb',
-                                codeUrl: 'Build/09d7d2f90a2bef30dd0860179534b184.wasm.unityweb',
+                                dataUrl: 'Build/40c40ab015a0dbd0b04c345cd3088552.data.unityweb',
+                                frameworkUrl: 'Build/1d78a606b6b418587539cd81adfdfe8c.framework.js.unityweb',
+                                codeUrl: 'Build/7d6178da46a4b27c46b0d9bbc2fc14a0.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'AnimaGames',
                                 productName: 'Anima Saga - Clicker RPG',
