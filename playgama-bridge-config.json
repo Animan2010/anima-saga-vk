@@ -1,0 +1,63 @@
+{
+    "platforms": {
+        "game_distribution": {
+            "gameId": ""
+        },
+        "telegram": {
+            "adsgramBlockId": ""
+        },
+        "y8": {
+            "gameId": "",
+            "adsenseId": "",
+            "channelId": ""
+        },
+        "lagged": {
+            "devId": "",
+            "publisherId": ""
+        },
+        "msn": {
+            "gameId": ""
+        },
+        "discord" : {
+            "appId": ""
+        },
+        "gamepush": {
+            "projectId": "",
+            "publicToken": ""
+        }
+    },
+    "advertisement": {
+        "interstitial": {
+            "preloadOnStart": true
+        },
+        "rewarded": {
+            "preloadOnStart": true
+        },
+        "useBuiltInErrorPopup": true,
+        "backfillId": ""
+    },
+    "payments": [
+        {
+            "id": "crystals_a",
+            "yandex": {
+                "amount": 29
+            }
+        },
+        {
+            "id": "crystals_b"
+        },
+        {
+            "id": "crystals_c"
+        },
+        {
+            "id": "crystals_d"
+        },
+        {
+            "id": "crystals_e"
+        },
+        {
+            "id": "crystals_f"
+        }
+    ],
+    "leaderboards": []
+}
