@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
+        <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
         <meta charset="utf-8">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>Anima Saga - Clicker RPG</title>
@@ -68,14 +69,14 @@
                     bridge.game.on('visibility_state_changed', state => sendMessageToUnity('OnVisibilityStateChanged', state))
 
                     let unityLoader = document.createElement('script')
-                    unityLoader.src = 'Build/e595eeca28aa8abfd5c101323703b4fe.loader.js'
+                    unityLoader.src = 'Build/daf7fc25d83d60ba6e723d83a2c655e3.loader.js'
                     unityLoader.onload = () => {
                         createUnityInstance(
                             canvas,
                             {
-                                dataUrl: 'Build/b47f6869876672571fadf9f95ab8bfab.data.unityweb',
-                                frameworkUrl: 'Build/86e86466e13fc69fabb20011b6424aed.framework.js.unityweb',
-                                codeUrl: 'Build/cb057602e236bae2852994285c67941f.wasm.unityweb',
+                                dataUrl: 'Build/c6e6c954fad0da8c38abc70a2dc73ffa.data.unityweb',
+                                frameworkUrl: 'Build/4aad83ac6720636d7e53da34cacd2c4a.framework.js.unityweb',
+                                codeUrl: 'Build/c482350d9e80448dbbf9410d8a564e20.wasm.unityweb',
                                 streamingAssetsUrl: 'StreamingAssets',
                                 companyName: 'AnimaGames',
                                 productName: 'Anima Saga - Clicker RPG',
